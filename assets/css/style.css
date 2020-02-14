@@ -1,0 +1,211 @@
+/* Area behind my name and nav bar */
+header{
+    position: sticky;
+    top: 0px;
+    background-color: #ffffff;
+    padding-bottom: 29px;
+    padding-top: 29px;
+    border-bottom: 2px solid #cccccc;
+    z-index: 1;
+
+}
+/* Basic styling for all h1's */
+h1{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align:  left;
+    margin: 0px;
+    padding-left: 15%;
+
+}
+/* Specific styles for area with my name and teal background */
+h1 span{
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+/* Styles for title for specific page below header */
+.header2{
+    color: #4aaaa5;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+    border-bottom:1px solid #dddddd;   
+}
+/* Adds background image and changes font for entire body */
+body{
+    background-image: url('../images/beanstalk.png');
+    background-repeat: inherit;
+    position: static;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0px;
+}
+/* Give background color to nav bar items and positions it */
+nav{
+    float: right;
+    margin-right: 15%;
+    margin-top: -50px;
+    background-color: #ffffff;
+}
+/* Positions individual line items in nav bar */
+nav li{
+    display: inline-block;
+    padding-left: 10px;
+
+}
+/* Changes the font size of vertical lines in between line items */
+.border{
+    font-size: 25px;
+}
+/* Changes color and font size of line items in the nav bar */
+nav ul {
+    color: #777777;
+    font-size: 20px;
+    padding: 0px;
+    list-style-type: none;
+    
+}
+/* Fixes list items to not have bullets */
+nav ul a{
+    color: #777777;
+    text-decoration: none;
+}
+/* Changes Padding and margins for span and .main */
+span, .main{
+    margin: 0px;
+    padding: 30px;
+}
+/* Sets white rectangle behind all elements in main */
+/* The Main is not exactly 960px because it didnt look right with my screen and the margin % were more responsive to the screen size changing */
+.main{
+    background-color: #ffffff;
+    min-height: 350px;
+    border: 1px solid #dddddd;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 25px;
+    margin-bottom: 150px;
+
+
+}
+/* Sets margins and position for images */
+img{
+    float: left;
+    padding: 0px;
+    margin: 25px;
+}
+/* Sets the top paragraphs top padding from the top of the box */
+.p1{
+    padding-top: 18px;
+}
+/* Main Styling for all paragraph items */
+p{
+    padding-bottom: 0px;
+    color: #777777;
+    line-height: 1.6;
+    font-size: 27px;
+    padding: 25px;
+    padding-bottom: 0px;
+    margin: 0;
+    
+}
+/* Sets position and styling of footer */
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 10px solid #4aaaa5;
+    background-color: #666666;
+    padding-top: 25;
+    padding: 0px;
+    margin: 0px;
+}
+/* Sets style and position for text on footer */
+.foot{
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    margin: 5px;
+    font-size: 15px;
+}
+/* Sets position and style of all inputs and text areas */
+.contact p, input, textarea{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+    line-height: 2.5;
+    color: #777777;
+}
+/* Sets height of inputs */
+input{
+    height: 30px;
+}
+/* Sets width and line height for inputs and text areas */
+input,textarea{
+    width: 95%;
+    line-height: 1.6;
+}
+/* Styles and position for submit button */
+input[type=Submit]{
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 0;
+    text-decoration: none;
+    margin: 0;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+/* Sets how items in box are positioned relative to eachother */
+.box{
+    box-sizing: content-box;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    margin-left: 70px;
+    margin-bottom: 35px;
+    padding: 0;
+    z-index: 0;
+}
+/* Sets text with teal background on top and centered on images */
+.box-text p{
+    background-color: #4aaaa5;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 150px;
+    padding: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 250px;
+    font-size: 24px;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Sets nav bar and submit button to scale up when hovered over */
+.hov:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+/* Sets boxes in portfolio to scale up when hovered over */
+.box:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.bold{
+    font-weight: bold;
+}

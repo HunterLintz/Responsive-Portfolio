@@ -209,3 +209,16 @@ input[type=Submit]{
 .bold{
     font-weight: bold;
 }
+
+/* since i was only changing percentages pretty much i felt like I only needed one media query as it looked good on all devices */
+@media only screen and (max-width:980px){
+   
+    .main{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .box{
+        margin-left: 0px;
+        margin-right: 58px;
+    }
+}

@@ -236,6 +236,23 @@ input[type=Submit]{
     color: #A5C4D4;
     font-family: 'Times New Roman', Times, serif;
 }
+.box-text-git p{
+	background-color: #593F62;
+	position: absolute;
+	margin-left: 25px;
+	margin-top: 145px;
+	padding: 25px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+	width: 250px;
+	font-size: 20px;
+	color: #A5C4D4;
+	font-family: 'Times New Roman', Times, serif;
+}
+.gitLink:hover{
+	text-decoration: underline;
+}
 /* Sets nav bar and submit button to scale up when hovered over */
 .hov:hover{
     cursor: pointer;

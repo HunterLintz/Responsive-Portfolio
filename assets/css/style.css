@@ -264,6 +264,10 @@ input[type=Submit]{
     cursor: pointer;
     transform: scale(1.1);
 }
+.noHover:hover{
+	cursor: default;
+	transform: none;
+}
 .bold{
     font-weight: bold;
 }

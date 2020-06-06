@@ -277,10 +277,15 @@ input[type=Submit]{
    
     .main{
         margin-left: 10%;
-        margin-right: 10%;
+				margin-right: 10%;
     }
     .box{
-        margin-left: 0px;
-        margin-right: 58px;
-    }
+        /* margin-left: 0px;
+				margin-right: 58px; */
+				margin: auto;
+		}
+		#aboutMe{
+			margin-top: 100px;
+		}
+
 }
